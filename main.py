@@ -1,8 +1,6 @@
 #!/usr/bin/python3
 # -*- encoding: utf-8 -*_
-# BadBoy Bot
-# Funcionando em Python 3.6 somente !
-# Discord version == 0.16.12
+# BadBot
 import discord
 import os
 
@@ -63,17 +61,7 @@ async def on_message(message):
 @client.event
 async def on_ready():
     print('\033[91m')
-    print('  /$$$$$$$                  /$$ /$$$$$$$                      ')
-    print(' | $$__  $$                | $$| $$__  $$                     ')
-    print(' | $$  \ $$  /$$$$$$   /$$$$$$$| $$  \ $$  /$$$$$$  /$$   /$$ ')
-    print(' | $$$$$$$  |____  $$ /$$__  $$| $$$$$$$  /$$__  $$| $$  | $$ ')
-    print(' | $$__  $$  /$$$$$$$| $$  | $$| $$__  $$| $$  \ $$| $$  | $$ ')
-    print(' | $$  \ $$ /$$__  $$| $$  | $$| $$  \ $$| $$  | $$| $$  | $$ ')
-    print(' | $$$$$$$/|  $$$$$$$|  $$$$$$$| $$$$$$$/|  $$$$$$/|  $$$$$$$ ')
-    print(' |_______/  \_______/ \_______/|_______/  \______/  \____  $$ ')
-    print('                                                    /$$  | $$ ')
-    print('                                                   |  $$$$$$/ ')
-    print('                                                    \______/  ')
+    print('BadBot')
     version = discord.__version__
     print('\033[0mVersion: \033[91m{}'.format(version))
     print('\033[0mServers connected to:')
